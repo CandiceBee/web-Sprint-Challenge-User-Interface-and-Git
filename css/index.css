@@ -290,10 +290,59 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
+    margin-left: 10rem;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.flexboxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 1rem;
+    border-bottom: dotted 2px black;
+    padding-bottom: 1rem;
+}
+
+.gallery img {
+    max-width: 100%;
+    padding-bottom: 1rem;
+}
+
+.gallery h3 {
+    text-align: left;
+    padding-bottom: .25rem;
+}
+
+.gallery p {
+    max-width: 400px;
+    padding-bottom: 1rem;
+}
+
+.gallery button {
+    border-radius: 7px;
+    background-color: white;
+    padding: 10px;
+    width: 120px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 2rem auto;
 }
