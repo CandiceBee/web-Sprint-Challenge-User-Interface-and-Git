@@ -1,3 +1,23 @@
+/*
+Self-Study Questions:
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Its a markup language that tells the browser where the basic elements are located on the page. 
+
+2. Name two big differences between display: block; and display: inline;.
+A block element will fill up the entire space it is given horizontally. Inline will only fill up as much space as it is given.
+
+3. What are the 4 areas of the box model?
+Content, padding, border, margin.
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+Main axis
+
+5. Explain why git is valuable to a team of developers.
+Because multiple people can be working on different parts of the code at the same time and it can all be reconnected. 
+
+*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
